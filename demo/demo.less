@@ -1,0 +1,52 @@
+@import "../pure-css-checkbox";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+
+@text-color: #333333;
+
+body {
+  color: @text-color;
+  background: #f4f4f4;
+  font-family: 'Raleway', sans-serif;
+}
+
+.page {
+  margin: 0 auto;
+  padding: 20px 30px;
+  max-width: 700px;
+  background: #ffffff;
+  box-shadow: 0 0 4px #333333;
+
+  h1.page-title {
+    font-weight: bold;
+    color: @primary;
+    margin: 20px 0 40px;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+ul.checkbox-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin: 10px 0 ;
+    padding: 0;
+  }
+}
+
+.panel {
+  margin: 20px 0;
+
+  .panel-heading {
+    background: @primary;
+    color: #ffffff;
+    padding: 20px 30px;
+  }
+
+  .panel-body {
+    padding: 20px;
+    border: 1px solid @primary
+  }
+}
