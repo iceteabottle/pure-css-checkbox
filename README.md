@@ -27,5 +27,5 @@ So change it to:
 - style for radio buttons
 - create scss version
 - add different effects
-----
+___
 Reference: http://maddesigns.de/individuelle-checkbox-radio-inputs-1396.html
