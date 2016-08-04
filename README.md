@@ -23,9 +23,12 @@ So change it to:
 </div>
 ```
 
+[Demo](https://iceteabottle.github.io/pure-css-checkbox/demo/demo.html)
+
 ## Coming soon
 - style for radio buttons
 - create scss version
 - add different effects
+
 ___
 Reference: http://maddesigns.de/individuelle-checkbox-radio-inputs-1396.html
