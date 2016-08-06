@@ -37,4 +37,4 @@ So change it to:
 
 
 ___
-Inspired by a blog post of Sven Wolfermann (@maddesigns): http://maddesigns.de/individuelle-checkbox-radio-inputs-1396.html
+Inspired by a blog post of Sven Wolfermann [@maddesigns](https://github.com/maddesigns): http://maddesigns.de/individuelle-checkbox-radio-inputs-1396.html
