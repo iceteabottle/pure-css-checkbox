@@ -21,7 +21,8 @@
 @primary: #4F8196;
 @secondary: #cccccc;
 
-.pure-checkbox {
+.pure-checkbox,
+.pure-radiobutton {
   input[type="checkbox"],
   input[type="radio"] {
     .vh();
@@ -47,7 +48,7 @@
 
     + label {
       position: relative;
-      padding: 5px 5px 5px 2em;
+      padding-left: 2em;
       vertical-align: middle;
       user-select: none;
       cursor: pointer;
@@ -70,16 +71,42 @@
       &:after {
         box-sizing: content-box;
         content: '';
-        background-color: #ffffff;
+        background-color: @primary;
         position: absolute;
         top: 50%;
         left: @inputBorderWidth + @inputActiveScale/2;
         width: @inputWidth - @inputActiveScale;
-        height: @inputHeight -@inputActiveScale;
+        height: @inputHeight - @inputActiveScale;
         margin-top: -((@inputHeight - @inputActiveScale)/2);
         transform: scale(0);
         transform-origin: 50%;
         transition: transform 200ms ease-out;
+      }
+    }
+
+    &:disabled {
+
+      + label {
+        &:before {
+          border-color: @secondary;
+        }
+      }
+
+      &:focus,
+      &:hover {
+        + label {
+          &:before {
+            background-color: inherit;
+          }
+        }
+      }
+
+      &:checked {
+        + label {
+          &:before {
+            background-color: @secondary;
+          }
+        }
       }
     }
   }
@@ -110,31 +137,6 @@
         }
       }
 
-    }
-    &:disabled {
-
-      + label {
-        &:before {
-          border-color: @secondary;
-        }
-      }
-
-      &:focus,
-      &:hover {
-        + label {
-          &:before {
-            background-color: inherit;
-          }
-        }
-      }
-
-      &:checked {
-        + label {
-          &:before {
-            background-color: @secondary;
-          }
-        }
-      }
     }
   }
 
