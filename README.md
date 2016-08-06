@@ -3,15 +3,16 @@
 - **pure™ css**
 - no javascript
 - only 3kB (unminified)
-- barrierfree
-- compatible with old browsers
-- individual stylable
-- build with les
+- material like style
+- good accessibility
+- compatible with old browser
+- build with less
 
 ## Usage
-The typical usage of a checkbox:
+The typical usage of a checkbox and a radio button:
 ```
 <label><input name="checkbox" type="checkbox"> Choice A</label>
+<label><input name="radio" type="radio"> Option A</label>
 ```
 This checkbox is unstylable.
 
@@ -21,14 +22,19 @@ So change it to:
   <input id="checkbox1" name="checkbox" type="checkbox">
   <label for="checkbox1">Choice A</label>
 </div>
+
+<div class="pure-radiobutton">
+  <input id="radio1" name="radio" type="radio">
+  <label for="radio1">Option A</label>
+</div>
 ```
 
 [Demo](https://iceteabottle.github.io/pure-css-checkbox/demo/demo.html)
 
 ## Coming soon
-- style for radio buttons
-- create scss version
-- add different effects
+- scss version
+- different effects
+
 
 ___
-Reference: http://maddesigns.de/individuelle-checkbox-radio-inputs-1396.html
+Inspired by a blog post of Sven Wolfermann: http://maddesigns.de/individuelle-checkbox-radio-inputs-1396.html

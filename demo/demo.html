@@ -12,20 +12,45 @@
 
     <form action="">
         <div class="panel">
-            <div class="panel-heading">Radio</div>
+            <div class="panel-heading">Radio button</div>
             <div class="panel-body">
-                <!--<ul>-->
-                    <!--<li><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> <label for="radio1">Option 1</label></li>-->
-                    <!--<li><input id="radio2" name="radio" type="radio" class="radio"> <label for="radio2">Option 2</label></li>-->
-                    <!--<li><input id="radio3" name="radio" type="radio" class="radio"> <label for="radio3">Option 3</label></li>-->
-                <!--</ul>-->
+                <ul class="input-list">
+                    <li>
+                        <div class="pure-radiobutton">
+                            <input id="radio1" name="radio" type="radio" class="radio" checked="checked">
+                            <label for="radio1">Option 1</label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pure-radiobutton">
+                            <input id="radio2" name="radio" type="radio" class="radio">
+                            <label for="radio2">Option 2</label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pure-radiobutton">
+                            <input id="radio3" name="radio" type="radio" class="radio">
+                            <label for="radio3">Option 3</label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pure-radiobutton">
+                            <input id="radio4" name="radio" type="radio" class="radio" disabled>
+                            <label for="radio4">Option 4 (disabled)</label>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
         </div>
         <div class="panel">
             <div class="panel-heading">Checkbox</div>
 
             <div class="panel-body">
-                <ul class="checkbox-list">
+                <ul class="input-list">
                     <li>
                         <div class="pure-checkbox">
                             <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
@@ -44,6 +69,13 @@
                         <div class="pure-checkbox">
                             <input id="checkbox3" name="checkbox" type="checkbox">
                             <label for="checkbox3">Choice C</label>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="pure-checkbox">
+                            <input id="checkbox4" name="checkbox" type="checkbox" disabled>
+                            <label for="checkbox4">Choice D (disabled)</label>
                         </div>
                     </li>
                 </ul>
