@@ -14,7 +14,7 @@ The typical usage of a checkbox and a radio button:
 <label><input name="checkbox" type="checkbox"> Choice A</label>
 <label><input name="radio" type="radio"> Option A</label>
 ```
-This checkbox is unstylable.
+This checkbox and radio button is unstylable.
 
 So change it to:
 ```
