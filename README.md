@@ -35,7 +35,7 @@ So change it to:
 </div>
 ```
 
-[Demo](https://iceteabottle.github.io/pure-css-checkbox/demo/demo.html)
+[Demo](https://iceteabottle.github.io/pure-css-checkbox/demo/demo.html?v=2017-08-01)
 
 ## Coming soon
 - scss version
