@@ -1,0 +1,29 @@
+{
+  "name": "pure-css-checkbox",
+  "version": "1.0.0",
+  "description": "pure css checkboxes and radio buttons",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iceteabottle/pure-css-checkbox.git"
+  },
+  "keywords": [
+    "checkbox",
+    "radio",
+    "css"
+  ],
+  "author": "Florian Symanowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iceteabottle/pure-css-checkbox/issues"
+  },
+  "homepage": "https://github.com/iceteabottle/pure-css-checkbox#readme"
+}

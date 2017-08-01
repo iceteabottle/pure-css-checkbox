@@ -7,6 +7,7 @@
 - good accessibility
 - compatible with old browser
 - build with less
+- **new:** iOS like toggle checkbox
 
 ## Usage
 The typical usage of a checkbox and a radio button:
@@ -21,6 +22,11 @@ So change it to:
 <div class="pure-checkbox">
   <input id="checkbox1" name="checkbox" type="checkbox">
   <label for="checkbox1">Choice A</label>
+</div>
+
+<div class="pure-checkbox-toggle">
+  <input id="checkbox2" name="checkbox" type="checkbox">
+  <label for="checkbox2">Choice A</label>
 </div>
 
 <div class="pure-radiobutton">
